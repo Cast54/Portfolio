@@ -16,10 +16,10 @@ en: &DEFAULT_EN
     button: Projects
     buttonlink: "#services"
 
-  # services:
-  #   title: "About Me"
-  #   text: "Lorem ipsum"
-  #   section: services
+  services:
+    title: "About Me"
+        body: ""
+        section: services
 
 
   portfolio:
@@ -59,11 +59,11 @@ en: &DEFAULT_EN
         align: right
     end: "Be Part <br> of Our <br> Story!"
 
-  about:
-    title: "About Us"
-    text: "our story"
-    body: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut eaque, laboriosam veritatis, quos non quis ad perspiciatis, totam corporis ea, alias ut unde. **Markdown** supported."
-    section: services
+  # about:
+  #   title: "About Us"
+  #   text: "our story"
+  #   body: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut eaque, laboriosam veritatis, quos non quis ad perspiciatis, totam corporis ea, alias ut unde. **Markdown** supported."
+  #   section: services
 
   clients:
     section: clients
