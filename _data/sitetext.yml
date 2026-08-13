@@ -17,8 +17,8 @@ en: &DEFAULT_EN
     # buttonlink: "#services"
     buttonlink: "#portfolio"
 
-  # services:
-  #   title: "Services"
+  services:
+    title: ""
   #   text: "Lorem ipsum"
   #   section: services
   #   list:
