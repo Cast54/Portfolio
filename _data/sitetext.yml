@@ -14,7 +14,8 @@ en: &DEFAULT_EN
     title: Welcome to my portfolio!
     text: Im William Castro
     button: Projects
-    buttonlink: "#services"
+    # buttonlink: "#services"
+    buttonlink: "#portfolio"
 
   # services:
   #   title: "Services"
