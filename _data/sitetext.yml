@@ -72,7 +72,7 @@ en: &DEFAULT_EN
   about:
     title: "About Me"
     # text: "our story"
-    body: "I am a Masters mechanical engineering student at BU, graduating in December 2026. I started engineering through LEAP at BU, allowing me to become an engineer after completing my undergraduate degree in Operations & Information Management. What draws me to engineering is my need to figure out how things work and to interact with complex systems. This started with my love of cars, and evolved as my interests grew toward aerospace, energy systems, and many other things at the cutting edge. I am excited to continue learning new things, meeting new people, and begin my career in a place that challenges me."
+    body: "I am a Masters Mechanical Engineering student at BU, graduating in December 2026. I started engineering through LEAP at BU, allowing me to become an engineer after completing my undergraduate degree in Operations & Information Management. What draws me to engineering is my need to figure out how things work and to interact with complex systems. This started with my love of cars, and evolved as my interests grew toward aerospace, energy systems, and many other things at the cutting edge. I am excited to continue learning new things, meeting new people, and begin my career in a place that challenges me."
     section: services
 
   clients:
