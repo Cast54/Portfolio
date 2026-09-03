@@ -146,7 +146,7 @@ en: &DEFAULT_EN
     submit: "Send Message"
 
   footer:
-    # legal: "Privacy Policy"
+    legal: "Privacy Policy"
     social:
       # - url: https://twitter.com
       #   icon: "fab fa-twitter"
@@ -154,11 +154,12 @@ en: &DEFAULT_EN
       #   icon: "fab fa-facebook-f"
       - url: https://www.linkedin.com/in/-william-castro/
         icon: "fab fa-linkedin-in"
-      - url: https://github.com/raviriley/agency-jekyll-theme
+      - url: https://github.com/Cast54/Portfolio
         icon: "fab fa-github"
+        # https://github.com/raviriley/agency-jekyll-theme
       # - url: https://instagram.com
       #   icon: "fab fa-instagram"
-
+      
 en-US:
   <<: *DEFAULT_EN
 en-CA:
