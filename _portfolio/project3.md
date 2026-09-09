@@ -1,13 +1,13 @@
 ---
-title: Project Name
-subtitle: Lorem ipsum dolor sit amet consectetur.
+title: Dynamic Gas System
+subtitle: Heated Vacuum Chamber to test Carbon Capture MOF's
 image: assets/img/portfolio/03-full.jpg
 alt: 
 
 caption:
-  title: Finish
-  subtitle: Identity
-  thumbnail: assets/img/portfolio/03-thumbnail.jpg
+  title: Dynamic Gas System
+  subtitle: Testing Chamber
+  thumbnail: assets/img/portfolio/03-DGS_Thumbnail.jpg
 ---
 Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae, nostrum, reiciendis facere nemo!
 
