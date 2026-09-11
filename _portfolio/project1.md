@@ -23,12 +23,15 @@ With the EVT, we learned some hard lessons. It was designed to have a grove in t
 
 Dented EVT pic here
 
-Switching to a carbide grovong tool fixed this problem, and we were able to make one good vessel. But, sealing is another major problem we encountered. First The o-rings we chose 
+Switching to a carbide grovong tool fixed this problem, and we were able to make one good vessel. A coozie was also make to insulate the press from burning a user's hand, and a lid was added to make sure coffee would not spill when being pressed. But, sealing is another major problem we encountered. First The o-rings we choose for the EVT was far too flimsy, and did not stay in the goove, we had to stuff two o-rings in the groove to make them stay and seal.
 
 EVT pics
 
-The EVT, 
+However, the EVT was too small, and its quality wasn't great; the finish was poor and the welds looked bad. We wanted to improve this for the DVT, so we increased the vessel from 2" to 2.9" in diameter, and increased its height from 3" to 3.75". We also seasoned the entire press with grape seed oil to make it food safe, determined that a lid was not needed, and added a silicone lip around the top of the plunger to protect the user's lips from getting burnt as they drink coffee.
 
+DVT Pics
+
+3 total EVTs were made. They successfully made a cup of coffee (It was pretty good!), sealed perfectly, and cemented our overall design. This doesn't mean we did not have our challenges though. The plunger and vessels are made of steel pipe
 {:.list-inline}
 - Date: January 2026 - May 2026
 - Course: Product Realization - ME537
