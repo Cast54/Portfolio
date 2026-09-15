@@ -31,7 +31,13 @@ However, the EVT was too small, and its quality wasn't great; the finish was poo
 
 DVT Pics
 
-3 total EVTs were made. They successfully made a cup of coffee (It was pretty good!), sealed perfectly, and cemented our overall design. This doesn't mean we did not have our challenges though. The plunger and vessels are made of steel pipe and had to be put on a lathe to either be groved or turn down the outside to a smaller size. Luckily, we had a 6-jaw chuck that kept the steel pipes in round so that the plunger would seal. But, the tool holder for the lathe that had this very nice 6-jaw chuck broke, and we had to switch to the CNC lathe that could work faster, but had a 3-jaw chuck that if tighted too much, would make the pipes go out of round. So we had to build an insert that could go in each
+3 total EVTs were made, they sealed perfectly, they looked good, and cemented our overall design. We even made a cup of coffee with one of them (it was pretty good)! But, we felt that we still had further improvements to make on the finishing, and getting a more even coating of seasoning.
+
+More DVT pics, mabye bad ones?
+
+
+
+The plunger and vessels are made of steel pipe and had to be put on a lathe to either be groved or turn down the outside to a smaller size. Luckily, we had a 6-jaw chuck that kept the steel pipes in round so that the plunger would seal. But, the tool holder for the lathe that had this very nice 6-jaw chuck broke, and we had to switch to the CNC lathe that could work faster, but had a 3-jaw chuck that if tighted too much, would make the pipes go out of round. So we had to build an insert that could go in each
 
 
 {:.list-inline}
