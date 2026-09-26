@@ -29,7 +29,7 @@ The EVT was our first steel prototype. It is smaller than the PVC mockup, with a
 
 ![EVT 1](assets/img/portfolio/01-EVT2.jpg){: width="500" }
 
-![EVT 2](assets/img/portfolio/01-EVT3.jpg){: width="720" }
+![EVT 2](assets/img/portfolio/01_EVT3.jpg){: width="720" }
 
 ![EVT 3](assets/img/portfolio/01-EVT1.jpg){: width="720" }
 
