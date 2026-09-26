@@ -13,13 +13,15 @@ The PressMate started as a project for the Product Realization class at BU (ME 5
 The PressMate is made up of three main components: the vessel, the plunger, and the O-ring. The vessel is a simple cup that holds the coffee, made from turned steel tube with a circular sheet of matching diameter welded to the bottom. The plunger is made from a taller but narrower tube, with a filter sandwiched against the bottom by a ring that is welded on to permanently attach it. Two tabs are welded to the top of the plunger so the user can more easily push it down and pull it out. A groove is cut into the side of the plunger where the O-ring sits, sealing the plunger to the vessel
 To brew, the user fills the vessel with coffee grounds and boiling water, then slowly pushes the plunger down into the vessel. The coffee passes up through the filter into the plunger, while the grounds stay trapped below, so the user can drink straight from the press.
 
-![PressMate Assembly Drawing](assets/img/portfolio/01-ASMB.jpg)
+![PressMate Assembly Drawing](assets/img/portfolio/01-ASMB.jpg){: width="500" }
 
 **Mockups**
 
 The first mockup was simple: two paper cups, one unmodified as the vessel and one with holes poked in the bottom to act as the plunger. However, we learned that a seal can't be achieved with tapered walls. The next two mockups were made from drink cans, with duct tape acting as a seal, which proved the design could work. The last mockup was made from PVC pipe. The vessel was cut PVC with a laser-cut acrylic bottom glued on to make it watertight. The plunger was a smaller PVC pipe with a steel mesh glued to the bottom as a filter. A groove was cut into the plunger, and a hair tie worked as the O-ring. PVC tabs were cut and glued to the top of the plunger for ease of use. The PVC mockup worked well and cemented our design.
 
-*Mockup pics*
+![PressMate Assembly Drawing](assets/img/portfolio/01-mockups.jpg){: width="500" }
+
+![PressMate Assembly Drawing](assets/img/portfolio/01-PVC_mockups.jpg){: width="500" }
 
 **EVT (Engineering Validation Test)**
 
