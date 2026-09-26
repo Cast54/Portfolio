@@ -1,19 +1,19 @@
 ---
 title: PressMate
-subtitle: Design and Mass Production Project
+subtitle: A high-quality, all-in-one steel coffee press
 image: assets/img/portfolio/01-CoffeePress_Thumbnail.jpg
 
 
 caption:
   title: PressMate
-  subtitle: Steel Coffee Press
+  subtitle: A high-quality, all-in-one steel coffee press
   thumbnail: assets/img/portfolio/01-CoffeePress_Thumbnail.jpg
 ---
 The PressMate started as a project for the Product Realization class at BU (ME 537). The goal was to go from concept to 10 fully working prototypes, and then to a mass production plan for 10,000 units. The idea began with a question: what if the AeroPress was inverted, and you could drink straight out of it? From there, we drew a basic design and made four mockups to test it.
 The PressMate is made up of three main components: the vessel, the plunger, and the O-ring. The vessel is a simple cup that holds the coffee, made from turned steel tube with a circular sheet of matching diameter welded to the bottom. The plunger is made from a taller but narrower tube, with a filter sandwiched against the bottom by a ring that is welded on to permanently attach it. Two tabs are welded to the top of the plunger so the user can more easily push it down and pull it out. A groove is cut into the side of the plunger where the O-ring sits, sealing the plunger to the vessel
 To brew, the user fills the vessel with coffee grounds and boiling water, then slowly pushes the plunger down into the vessel. The coffee passes up through the filter into the plunger, while the grounds stay trapped below, so the user can drink straight from the press.
 
-assets/img/portfolio/01-ASMB.jpg
+image: assets/img/portfolio/01-ASMB.jpg
 
 **Mockups**
 
