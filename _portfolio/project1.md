@@ -13,7 +13,7 @@ The PressMate started as a project for the Product Realization class at BU (ME 5
 The PressMate is made up of three main components: the vessel, the plunger, and the O-ring. The vessel is a simple cup that holds the coffee, made from turned steel tube with a circular sheet of matching diameter welded to the bottom. The plunger is made from a taller but narrower tube, with a filter sandwiched against the bottom by a ring that is welded on to permanently attach it. Two tabs are welded to the top of the plunger so the user can more easily push it down and pull it out. A groove is cut into the side of the plunger where the O-ring sits, sealing the plunger to the vessel
 To brew, the user fills the vessel with coffee grounds and boiling water, then slowly pushes the plunger down into the vessel. The coffee passes up through the filter into the plunger, while the grounds stay trapped below, so the user can drink straight from the press.
 
-*drawings*
+assets/img/portfolio/01-ASMB.jpg
 
 **Mockups**
 
