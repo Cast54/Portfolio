@@ -13,21 +13,25 @@ The PressMate started as a project for the Product Realization class at BU (ME 5
 The PressMate is made up of three main components: the vessel, the plunger, and the O-ring. The vessel is a simple cup that holds the coffee, made from turned steel tube with a circular sheet of matching diameter welded to the bottom. The plunger is made from a taller but narrower tube, with a filter sandwiched against the bottom by a ring that is welded on to permanently attach it. Two tabs are welded to the top of the plunger so the user can more easily push it down and pull it out. A groove is cut into the side of the plunger where the O-ring sits, sealing the plunger to the vessel
 To brew, the user fills the vessel with coffee grounds and boiling water, then slowly pushes the plunger down into the vessel. The coffee passes up through the filter into the plunger, while the grounds stay trapped below, so the user can drink straight from the press.
 
-![PressMate Assembly Drawing](assets/img/portfolio/01-ASMB.jpg){: width="500" }
+![PressMate Assembly Drawing](assets/img/portfolio/01-ASMB.jpg){: width="900" }
 
 **Mockups**
 
 The first mockup was simple: two paper cups, one unmodified as the vessel and one with holes poked in the bottom to act as the plunger. However, we learned that a seal can't be achieved with tapered walls. The next two mockups were made from drink cans, with duct tape acting as a seal, which proved the design could work. The last mockup was made from PVC pipe. The vessel was cut PVC with a laser-cut acrylic bottom glued on to make it watertight. The plunger was a smaller PVC pipe with a steel mesh glued to the bottom as a filter. A groove was cut into the plunger, and a hair tie worked as the O-ring. PVC tabs were cut and glued to the top of the plunger for ease of use. The PVC mockup worked well and cemented our design.
 
-![PressMate Assembly Drawing](assets/img/portfolio/01-mockups.jpg){: width="500" }
+![PressMate Assembly Drawing](assets/img/portfolio/01-mockups.jpg){: width="720" }
 
-![PressMate Assembly Drawing](assets/img/portfolio/01-PVC_mockups.jpg){: width="500" }
+![PressMate Assembly Drawing](assets/img/portfolio/01-PVC_mockups.jpg){: width="720" }
 
 **EVT (Engineering Validation Test)**
 
 The EVT was our first steel prototype. It is smaller than the PVC mockup, with a diameter of 2" and a total height of about 3.5", because we wanted it to fit comfortably in one hand and to save on cost. We stitched a koozie so the press wouldn't burn the user's hand, and milled a lid from HDPE because we were worried about hot water splashing onto the user's hand while pressing the plunger.
 
-*EVT Pictures*
+![PressMate Assembly Drawing](assets/img/portfolio/01-EVT2.jpg.jpg){: width="500" }
+
+![PressMate Assembly Drawing](assets/img/portfolio/01-EVT3.jpg.jpg){: width="720" }
+
+![PressMate Assembly Drawing](assets/img/portfolio/01-EVT1.jpg.jpg){: width="720" }
 
 Ultimately, the EVT proved that we could manufacture the press from steel, but it was too small to hold a standard cup of coffee (8 oz). The finish also needed improvement, and we needed a seal that worked better.
 DVT (Design Validation Test)
