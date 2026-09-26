@@ -50,8 +50,6 @@ The first mockup was simple: two paper cups, one unmodified as the vessel and on
   <figcaption>Assembly drawing of the PressMate.</figcaption>
 </figure>
 
-![PVC Mockup](assets/img/portfolio/01-PVC_mockup.jpeg){: width="720" }
-
 <figure class="project-figure">
   <img src="assets/img/portfolio/01-PVC_mockup.jpeg" alt="PVC Mockup">
   <figcaption>PVC vessel and plunger.</figcaption>
@@ -78,7 +76,8 @@ The EVT was our first steel prototype. It is smaller than the PVC mockup, with a
 
 
 Ultimately, the EVT proved that we could manufacture the press from steel, but it was too small to hold a standard cup of coffee (8 oz). The finish also needed improvement, and we needed a seal that worked better.
-DVT (Design Validation Test)
+
+**DVT (Design Validation Test)**
 The DVT phase consisted of 3 prototypes. They are larger than the EVT, with a diameter of 2.9" and a total height of 4.33". For the seal, we switched to X-profile O-rings, which stay in the plunger's groove and seal more consistently than the double-layered backup O-rings we were using before. Since the prototypes were made from 1010 carbon steel, we needed a coating that would let water (or coffee) sit in the press without it corroding over time. We coated the plunger and vessel in grapeseed oil and baked them at 425°F to polymerize the oil, a process commonly known as "seasoning." This also gave the PressMate a golden color.
 
 *DVT pics*
