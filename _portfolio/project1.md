@@ -16,7 +16,7 @@ caption:
 .project-figure img {
   display: block;
   margin: 0 auto;
-  max-width: 60%;
+  max-width: 100%;
   height: auto;
 }
 .project-figure figcaption {
