@@ -1,3 +1,20 @@
+figure {
+  text-align: center;
+}
+figure img {
+  display: block;
+  margin: 0 auto;
+  max-width: 60%;
+  height: auto;
+}
+figcaption {
+  font-size: 0.9em;
+  color: #6c757d;
+  font-style: italic;
+  margin-top: 0.5em;
+}
+
+
 ---
 title: PressMate
 subtitle: A high-quality, all-in-one steel coffee press
