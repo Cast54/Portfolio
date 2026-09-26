@@ -21,7 +21,7 @@ The first mockup was simple: two paper cups, one unmodified as the vessel and on
 
 ![PressMate Assembly Drawing](assets/img/portfolio/01-mockups.jpg){: width="720" }
 
-![PVC Mockup](assets/img/portfolio/01-PVC_mockup.jpg){: width="720" }
+![PVC Mockup](assets/img/portfolio/01-PVC_mockup.jpeg){: width="720" }
 
 **EVT (Engineering Validation Test)**
 
