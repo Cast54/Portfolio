@@ -21,17 +21,17 @@ The first mockup was simple: two paper cups, one unmodified as the vessel and on
 
 ![PressMate Assembly Drawing](assets/img/portfolio/01-mockups.jpg){: width="720" }
 
-![PressMate Assembly Drawing](assets/img/portfolio/01-PVC_mockups.jpg){: width="720" }
+![PVC Mockup](assets/img/portfolio/01-PVC_mockup.jpg){: width="720" }
 
 **EVT (Engineering Validation Test)**
 
 The EVT was our first steel prototype. It is smaller than the PVC mockup, with a diameter of 2" and a total height of about 3.5", because we wanted it to fit comfortably in one hand and to save on cost. We stitched a koozie so the press wouldn't burn the user's hand, and milled a lid from HDPE because we were worried about hot water splashing onto the user's hand while pressing the plunger.
 
-![PressMate Assembly Drawing](assets/img/portfolio/01-EVT2.jpg.jpg){: width="500" }
+![EVT 1](assets/img/portfolio/01-EVT2.jpg){: width="500" }
 
-![PressMate Assembly Drawing](assets/img/portfolio/01-EVT3.jpg.jpg){: width="720" }
+![EVT 2](assets/img/portfolio/01-EVT3.jpg){: width="720" }
 
-![PressMate Assembly Drawing](assets/img/portfolio/01-EVT1.jpg.jpg){: width="720" }
+![EVT 3](assets/img/portfolio/01-EVT1.jpg){: width="720" }
 
 Ultimately, the EVT proved that we could manufacture the press from steel, but it was too small to hold a standard cup of coffee (8 oz). The finish also needed improvement, and we needed a seal that worked better.
 DVT (Design Validation Test)
