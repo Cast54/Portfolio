@@ -44,19 +44,38 @@ To brew, the user fills the vessel with coffee grounds and boiling water, then s
 
 The first mockup was simple: two paper cups, one unmodified as the vessel and one with holes poked in the bottom to act as the plunger. However, we learned that a seal can't be achieved with tapered walls. The next two mockups were made from drink cans, with duct tape acting as a seal, which proved the design could work. The last mockup was made from PVC pipe. The vessel was cut PVC with a laser-cut acrylic bottom glued on to make it watertight. The plunger was a smaller PVC pipe with a steel mesh glued to the bottom as a filter. A groove was cut into the plunger, and a hair tie worked as the O-ring. PVC tabs were cut and glued to the top of the plunger for ease of use. The PVC mockup worked well and cemented our design.
 
-![PressMate Assembly Drawing](assets/img/portfolio/01-mockups.jpg){: width="720" }
+
+<figure class="project-figure">
+  <img src="assets/img/portfolio/01-mockups.jpg" alt="PressMate Assembly Drawing">
+  <figcaption>Assembly drawing of the PressMate.</figcaption>
+</figure>
 
 ![PVC Mockup](assets/img/portfolio/01-PVC_mockup.jpeg){: width="720" }
+
+<figure class="project-figure">
+  <img src="assets/img/portfolio/01-PVC_mockup.jpeg" alt="PVC Mockup">
+  <figcaption>PVC vessel and plunger.</figcaption>
+</figure>
 
 **EVT (Engineering Validation Test)**
 
 The EVT was our first steel prototype. It is smaller than the PVC mockup, with a diameter of 2" and a total height of about 3.5", because we wanted it to fit comfortably in one hand and to save on cost. We stitched a koozie so the press wouldn't burn the user's hand, and milled a lid from HDPE because we were worried about hot water splashing onto the user's hand while pressing the plunger.
 
-![EVT 1](assets/img/portfolio/01-EVT2.jpg){: width="500" }
+<figure class="project-figure">
+  <img src="assets/img/portfolio/01-EVT2.jpg" alt="EVT 1">
+  <figcaption>EVT PressMate.</figcaption>
+</figure>
 
-![EVT 2](assets/img/portfolio/01-EVT3.jpg){: width="720" }
+<figure class="project-figure">
+  <img src="assets/img/portfolio/01-EVT3.jpg" alt="EVT 2">
+  <figcaption>Disassembled EVT PressMate.</figcaption>
+</figure>
 
-![EVT 3](assets/img/portfolio/01-EVT1.jpg){: width="720" }
+<figure class="project-figure">
+  <img src="assets/img/portfolio/01-EVT1.jpg" alt="EVT 3">
+  <figcaption>EVT vessel and plunger.</figcaption>
+</figure>
+
 
 Ultimately, the EVT proved that we could manufacture the press from steel, but it was too small to hold a standard cup of coffee (8 oz). The finish also needed improvement, and we needed a seal that worked better.
 DVT (Design Validation Test)
