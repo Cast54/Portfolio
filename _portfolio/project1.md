@@ -101,11 +101,12 @@ There was still more to improve at this stage. The coatings were uneven, the sil
 **PVT (Production Validation Test)**
 
 The PVT was our final phase of prototyping, ending with a run of 10 more prototypes. The only design change from DVT was increasing the thickness of the steel plate used for the bottom of the plunger and vessel. Instead, we focused on improving every manufacturing process to get a better finish across the whole PressMate:
--•	Machining: We optimized the CNC lathe process for our steel tubes, testing different cutting inserts, boring bars of different stiffnesses, cut depths, cutting speeds, feed rates, and even chuck clamping forces (to keep the tube from going out of round). This vastly improved the finish on both the plunger and the vessel.
--•	Welding: We switched to smaller, faster welds that still had good penetration, were more consistent, and sat more flush with the tube, and leaked no water.
--•	Koozies: A new stitching method reduced fraying and visible seams.
--•	Silicone lip: We let the silicone cure longer before dipping to get a thicker coat, and dyed it black to add some color to the press.
--•	Coating: We made sure no paper fibers or hairs were trapped in the coating, and made it as even as we could.
+
+-	Machining: We optimized the CNC lathe process for our steel tubes, testing different cutting inserts, boring bars of different stiffnesses, cut depths, cutting speeds, feed rates, and even chuck clamping forces (to keep the tube from going out of round). This vastly improved the finish on both the plunger and the vessel.
+-	Welding: We switched to smaller, faster welds that still had good penetration, were more consistent, and sat more flush with the tube, and leaked no water.
+-	Koozies: A new stitching method reduced fraying and visible seams.
+-	Silicone lip: We let the silicone cure longer before dipping to get a thicker coat, and dyed it black to add some color to the press.
+-	Coating: We made sure no paper fibers or hairs were trapped in the coating, and made it as even as we could.
 
 <figure class="project-figure">
   <img src="assets/img/portfolio/01-disassembled_PVT.jpg" alt="Disassembled PVT">
