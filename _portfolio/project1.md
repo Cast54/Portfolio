@@ -16,7 +16,7 @@ caption:
 .portfolio-modal .modal-content .project-figure img {
   display: block;
   margin: 0 auto 0.4em auto;
-  max-width: 60%;
+  max-width: 120%;
   height: auto;
 }
 .portfolio-modal .modal-content .project-figure figcaption {
@@ -26,6 +26,9 @@ caption:
   margin-top: 0;
 }
 </style>
+
+_Boston University · ME 537 Product Realization · Team of [4] · Tools: [CNC Lathe, Manual Lathe, Fusion 360, Wire EDM, Waterjet cutting, TIG welding]_
+
 
 The PressMate started as a project for the Product Realization class at BU (ME 537). The goal was to go from concept to 10 fully working prototypes, and then to a mass production plan for 10,000 units. The idea began with a question: what if the AeroPress was inverted, and you could drink straight out of it? From there, we drew a basic design and made four mockups to test it.
 
