@@ -13,17 +13,17 @@ caption:
 .project-figure {
   text-align: center;
 }
-.project-figure img {
+.portfolio-modal .modal-content .project-figure img {
   display: block;
-  margin: 0 auto;
-  max-width: 100%;
+  margin: 0 auto 0.4em auto;
+  max-width: 60%;
   height: auto;
 }
-.project-figure figcaption {
+.portfolio-modal .modal-content .project-figure figcaption {
   font-size: 0.9em;
   color: #6c757d;
   font-style: italic;
-  margin-top: 0.1em;
+  margin-top: 0;
 }
 </style>
 
