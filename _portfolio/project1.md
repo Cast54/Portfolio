@@ -24,7 +24,7 @@ caption:
   color: #6c757d;
   font-style: italic;
   margin-top: 0;
-  
+}
 .portfolio-modal .modal-content ul {
   text-align: left;
   display: inline-block;
