@@ -112,6 +112,7 @@ The PVT was our final phase of prototyping, ending with a run of 10 more prototy
 - **Silicone lip:** We let the silicone cure longer before dipping to get a thicker coat, and dyed it black to add some color to the press.
 - **Coating:** We made sure no paper fibers or hairs were trapped in the coating, and made it as even as we could.
 
+
 <figure class="project-figure">
   <img src="assets/img/portfolio/01-disassembled_PVT.jpg" alt="Disassembled PVT">
   <figcaption>An assembled PVT next to another PVT plunger.</figcaption>
