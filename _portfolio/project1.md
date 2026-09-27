@@ -128,8 +128,7 @@ However, the PVT also brought our most challenging problem yet. Even though the 
 **Documentation**
 
 Building the PressMates was only half of the work in this project. Overall, we created 16 documents and maintained them with our own versioning and document tracking rules. We also made a template for each document, archived every previous version, and documented every team meeting.
-Want to see the documentation? [Click here!]([https://drive.google.com/drive/folders/1HRCfqT_19kduY7677CHCRGcubmN7M0_g?usp=sharing])
-
+Want to see the documentation? [Click here!](https://drive.google.com/drive/folders/1HRCfqT_19kduY7677CHCRGcubmN7M0_g?usp=sharing){:target="_blank"}
 {:.list-inline}
 - Date: January 2026 - May 2026
 - Course: Product Realization - ME537
