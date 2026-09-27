@@ -16,7 +16,7 @@ caption:
 .portfolio-modal .modal-content .project-figure img {
   display: block;
   margin: 0 auto 0.4em auto;
-  max-width: 120%;
+  max-width: 100%;
   height: auto;
 }
 .portfolio-modal .modal-content .project-figure figcaption {
