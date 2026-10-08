@@ -21,11 +21,9 @@ There are two systems used to test these materials: the DGS Tube and the DGS Cha
 
 I built the DGS Chamber to address both limitations, with the long-duration degradation tests in mind: everything about it is meant to reduce cycle time.
 
-Port placement: The chamber's two 1/8" NPT ports sit at opposite corners of the square design, so gas sweeps through the full volume as it cycles instead of leaving stagnant pockets that don't get purged.
-
-Thin bottom: The bottom of the chamber is only 1/16" thick, to maximize heating speed from a resistive heater attached underneath. We're also considering a Peltier element to heat and cool the MOFs, to cut cycle time further.
-
-Minimal material: The chamber uses as little material as possible to minimize thermal mass, so it heats up and cools down faster.
+- **Port placement:** The chamber's two 1/8" NPT ports sit at opposite corners of the square design, so gas sweeps through the full volume as it cycles instead of leaving stagnant pockets that don't get purged.
+- **Thin bottom:** The bottom of the chamber is only 1/16" thick, to maximize heating speed from a resistive heater attached underneath. We're also considering a Peltier element to heat and cool the MOFs, to cut cycle time further.
+- **Minimal material:** The chamber uses as little material as possible to minimize thermal mass, so it heats up and cools down faster.
 
 **Building the Chamber**
 
