@@ -1,7 +1,7 @@
 ---
 title: Dynamic Gas System Chamber
 subtitle: A vacuum chamber built to run direct air capture material through 5,000+ heating and cooling cycles, and the leak hunt that came with it.
-image: assets/img/portfolio/03-full.jpg
+image: assets/img/portfolio/03-Lid_and_Chamber.jpg
 alt: 
 
 caption:
