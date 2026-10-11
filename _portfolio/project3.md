@@ -2,7 +2,7 @@
 title: Dynamic Gas System Chamber
 subtitle: A vacuum chamber built to run direct air capture material through 5,000+ heating and cooling cycles, and the leak hunt that came with it.
 image: assets/img/portfolio/03-Lid_and_Chamber.jpg
-alt: 
+alt: Vacuum lid and chamber
 
 caption:
   title: Dynamic Gas System
@@ -28,6 +28,15 @@ caption:
 .portfolio-modal .modal-content ul {
   text-align: left;
   display: inline-block;
+}
+  .portfolio-modal .modal-content .video-wrapper {
+  width: 100%;
+  aspect-ratio: 16 / 9;
+  margin: 0 auto 0.4em auto;
+}
+.portfolio-modal .modal-content .video-wrapper iframe {
+  width: 100%;
+  height: 100%;
 }
 </style>
 
@@ -98,6 +107,17 @@ The IPA never fully evaporated into the chamber at that fitting; we think the le
 
 Next we removed the gauge entirely to cut down on possible leak points and turned to the NPT valves as the next suspect. IPA on the valves hadn't shown a spike in the earlier round, but we tried again, confident the chamber itself was sound. With the chamber held at 0.7 mbar by the pump, pouring IPA into a valve handle held upside down, then flipping it upright, spiked the pressure to over 10 mbar. Once again, the NPT fittings and the chamber's own gasket showed nothing.
 
+<figure class="project-figure">
+  <div class="video-wrapper">
+    <iframe src="https://www.youtube.com/embed/VF1iLo7buFI"
+            title="IPA leak test on NPT valve"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            referrerpolicy="strict-origin-when-cross-origin"
+            allowfullscreen></iframe>
+  </div>
+  <figcaption>Pouring IPA into the valve handle spikes the chamber pressure from 0.7 to over 10 mbar.</figcaption>
+</figure>
 
 We're not sure yet why the valves sealed in the earlier test but not this one; our best guess is that of the two identical 1/8" NPT valves, only one is actually good. Either way, we believe the chamber itself is capable of holding a vacuum sufficient for the long-duration degradation tests, we just need fittings that won't leak over time.
 
