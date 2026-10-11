@@ -9,7 +9,27 @@ caption:
   subtitle: Testing Chamber
   thumbnail: assets/img/portfolio/03-DGS_Thumbnail.jpg
 ---
-
+<style>
+.project-figure {
+  text-align: center;
+}
+.portfolio-modal .modal-content .project-figure img {
+  display: block;
+  margin: 0 auto 0.4em auto;
+  max-width: 100%;
+  height: auto;
+}
+.portfolio-modal .modal-content .project-figure figcaption {
+  font-size: 0.9em;
+  color: #6c757d;
+  font-style: italic;
+  margin-top: 0;
+}
+.portfolio-modal .modal-content ul {
+  text-align: left;
+  display: inline-block;
+}
+</style>
 
 **Overview**
 
@@ -29,35 +49,55 @@ I built the DGS Chamber to address both limitations, with the long-duration degr
 
 I modeled the chamber in Fusion 360 and used Fusion CAM to set it up for the CNC mill. I machined it on a Haas VF2 with a flat steel bed, securing a 4" x 1" x 16" aluminum bar with step clamps. The chamber needed tabs left uncut to hold it in place in the stock, since it wouldn't otherwise have stayed put during machining.
 
-DGS Chamber in mill pics
+<figure class="project-figure">
+  <img src="assets/img/portfolio/03-CNC_Coolent2.jpg" alt="DGS Chamber after Milling in CNC">
+  <figcaption>The vacuum chamber in a Haas VF2 after being milled.</figcaption>
+</figure>
+
+<figure class="project-figure">
+  <img src="assets/img/portfolio/03-Milled.jpg" alt="DGS Chamber after Milling out of CNC">
+  <figcaption>The vacuum chamber after being removed from mill, still secured to the rest of the stock.</figcaption>
+</figure>
 
 After milling, I used a band saw to free the chamber from the stock, then set it up in a manual mill to drill and tap the two 1/8" NPT holes. From the CAD model, I made a DXF file to waterjet cut a lid for the chamber, and used that same file to laser cut a silicone gasket to seal it.
-
-DGS Pics
 
 **Testing and Troubleshooting the Seal**
 
 With the chamber built, the PhD student who runs the carbon capture lab and I used the Alicat mass flow controllers from the DGS Tube to test for leaks under atmospheric pressure. Pumping nitrogen through the chamber, we measured a leak rate of roughly 1% at 500 SCCM, the top of the flow controllers' range. We moved on to vacuum testing, connecting the chamber to a vacuum pump on one end through a valve, with a gauge on the other.
 
-vacuum setup pics
+<figure class="project-figure">
+  <img src="assets/img/portfolio/03-Leak_Testing3.jpg" alt="DGS Chamber leak testing">
+  <figcaption>Two Alicat mass flow controllers connected to the vacuum chamber to measure leakage under atmospheric pressure.</figcaption>
+</figure>
 
 This is where most of our problems started. With the pump running, the chamber reached 0.8 mbar, but closing the valve to the pump let pressure rise quickly. Research pointed to the cause: silicone is highly gas-permeable, and we'd only used it because the lab already had a sheet on hand. We switched to a laser-cut nitrile (Buna-N) gasket instead. Concerned about flatness, I lapped both the lid and the chamber on a granite surface plate so the gasket's contact points would seal as evenly as possible. Neither change fixed the leak.
 
-maybe more pics
+<figure class="project-figure">
+  <img src="assets/img/portfolio/03-Milling_Lid.jpg" alt="Lid being milled">
+  <figcaption>Milling the lid before lapping to be as flat as possible</figcaption>
+</figure>
 
 **Finding the Leak**
 
-After consulting with someone who designs vacuum chambers professionally, I ran an isopropanol (IPA) test on the whole system. The test works by temporarily plugging a leak with liquid IPA; as it evaporates and is drawn into the chamber, it produces a visible pressure spike on the pump gauge or vacrometer. Applying IPA to every likely leak point produced no spike, until I poured it onto the fitting for the vacrometer (a CPS VG200), which immediately sealed and held vacuum.
+After consulting with someone who designs vacuum chambers professionally, I ran an isopropanol (IPA) test on the whole system. The test works by temporarily plugging a leak with liquid IPA; as it evaporates and is drawn into the chamber, it produces a visible pressure spike on the pump gauge or vacrometer. Applying IPA to every likely leak point produced no spike, until I poured it onto the fitting for the vacrometer (a CPS VG200), which immediately sealed and held vacuum. We also mixed red dye with the IPA, hoping to see where the leaks are.
 
 The IPA never fully evaporated into the chamber at that fitting; we think the leak there is small enough that the IPA's surface tension alone was plugging it. With that seal, the chamber held 2 mbar or less for six hours. Overnight, though, the IPA evaporated out to the atmosphere side, the leak reopened, and by morning the chamber had lost vacuum entirely (back above 100 mbar). We ordered a new gasket for the vacrometer, hoping that would solve it, but the leak persisted.
 
-VGS pics
+<figure class="project-figure">
+  <img src="assets/img/portfolio/03-IPA.jpg" alt="IPA testing">
+  <figcaption>The dyed IPA being applied to the chamber to check for leaks.</figcaption>
+</figure>
+
+<figure class="project-figure">
+  <img src="assets/img/portfolio/03-IPA_Test.jpg" alt="Inspection after IPA testing">
+  <figcaption>Inspecting the chamber for any dye intrusion after IPA test.</figcaption>
+</figure>
+
 
 **Isolating the Valve**
 
 Next we removed the gauge entirely to cut down on possible leak points and turned to the NPT valves as the next suspect. IPA on the valves hadn't shown a spike in the earlier round, but we tried again, confident the chamber itself was sound. With the chamber held at 0.7 mbar by the pump, pouring IPA into a valve handle held upside down, then flipping it upright, spiked the pressure to over 10 mbar. Once again, the NPT fittings and the chamber's own gasket showed nothing.
 
-**IPA test video**
 
 We're not sure yet why the valves sealed in the earlier test but not this one; our best guess is that of the two identical 1/8" NPT valves, only one is actually good. Either way, we believe the chamber itself is capable of holding a vacuum sufficient for the long-duration degradation tests, we just need fittings that won't leak over time.
 
