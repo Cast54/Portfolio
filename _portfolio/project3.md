@@ -116,7 +116,7 @@ Next we removed the gauge entirely to cut down on possible leak points and turne
             referrerpolicy="strict-origin-when-cross-origin"
             allowfullscreen></iframe>
   </div>
-  <figcaption>Pouring IPA into the valve handle spikes the chamber pressure from 0.7 to over 10 mbar.</figcaption>
+  <figcaption>Pouring IPA into the valve handle spikes the chamber pressure from 0.5 to over 10 mbar.</figcaption>
 </figure>
 
 We're not sure yet why the valves sealed in the earlier test but not this one; our best guess is that of the two identical 1/8" NPT valves, only one is actually good. Either way, we believe the chamber itself is capable of holding a vacuum sufficient for the long-duration degradation tests, we just need fittings that won't leak over time.
