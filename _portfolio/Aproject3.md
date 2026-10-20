@@ -6,7 +6,7 @@ alt: Vacuum lid and chamber
 
 caption:
   title: Dynamic Gas System
-  subtitle: Testing Chamber
+  subtitle: A Testing Chamber
   thumbnail: assets/img/portfolio/03-DGS_Thumbnail.jpg
 ---
 <style>
