@@ -109,7 +109,7 @@ Although most of the circuit printing software already existed, getting our comp
 *Conductive ink.* The conductive ink is a shear-thinning, yield-stress paste made with pure silver powder, which we mixed ourselves. It only lasted about a day before hardening, so we only made it when we were confident the components were lining up correctly. Because the syringe was driven pneumatically, small changes in the ink's viscosity from batch to batch meant it would under- or over-extrude, even at the same pressure. Cutting off the end of the syringe tip to slightly enlarge the opening gave us much more consistent extrusion.
  
 <figure class="project-figure">
-  <img src="assets/img/portfolio/02-Silver_INk.jpg" alt="Filling conductive silver ink into syringe">
+  <img src="assets/img/portfolio/02-Silver_Ink.jpg" alt="Filling conductive silver ink into syringe">
   <figcaption>Placing conductive silver ink into syringe.</figcaption>
 </figure>
  
