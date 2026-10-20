@@ -124,8 +124,8 @@ Once we solved the problems with the ink, calibration, extrusion, code, and suct
   <figcaption>The finished, fully automated printed circuits with their CAD models.</figcaption>
 </figure>
 
-
-
 {:.list-inline}
-Date: January 2026 - May 2026
-Course: Advanced Manufacturing - ME500
+- January 2026 - May 2026
+- Advanced Manufacturing - ME500
+
+
