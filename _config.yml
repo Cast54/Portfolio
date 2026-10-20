@@ -17,7 +17,7 @@ remote_theme: raviriley/agency-jekyll-theme
 url    : "https://william-castro.com" # the base hostname & protocol for your site, e.g. http://example.com
 baseurl: "" # the subpath of your site, e.g. /blog
 
-title      : "Will's Portfolio"
+title      : "William Castro"
 email      : "william101.wc@gmail.com" #this is also the email contact forms will go to
 description: ""
 author     : "William Castro"
