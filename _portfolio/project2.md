@@ -1,7 +1,7 @@
 ---
 title: Circuit Printing
 subtitle: Expanding a fully automated robotic cell that mills, ink-writes, and assembles custom circuits.
-image: assets/img/portfolio/02-full.jpg
+image: assets/img/portfolio/02-CircuitPrint_Thumbnail.jpg
 alt: Keep Exploring
 
 caption:
@@ -102,15 +102,15 @@ Although most of the circuit printing software already existed, getting our comp
 *Pick-and-place accuracy.* Our biggest challenge was getting pick and place to work reliably. The robot would pick up a component and set it down slightly off from where it belonged. The program used a palletizing pattern for pickup: we taught the robot the positions of the first and last components in the tray, and it interpolated the positions in between. To correct where a component landed on the circuit, we adjusted where it was picked up, often by less than 1 mm. We had to tune the first and last positions for every component type, including the original ones, since the robot wasn't placing those accurately either.
  
 <figure class="project-figure">
-  <img src="assets/img/portfolio/02-Pick_and_Place.jpg" alt="Components placed on a printed circuit">
-  <figcaption>Components placed on the circuit after tuning the pickup positions.</figcaption>
+  <img src="assets/img/portfolio/02-Component_Tray.jpg" alt="Custom component tray installed next to existing component try">
+  <figcaption>The custome component tray for the new components, installed next to the existing component tray.</figcaption>
 </figure>
  
 *Conductive ink.* The conductive ink is a shear-thinning, yield-stress paste made with pure silver powder, which we mixed ourselves. It only lasted about a day before hardening, so we only made it when we were confident the components were lining up correctly. Because the syringe was driven pneumatically, small changes in the ink's viscosity from batch to batch meant it would under- or over-extrude, even at the same pressure. Cutting off the end of the syringe tip to slightly enlarge the opening gave us much more consistent extrusion.
  
 <figure class="project-figure">
-  <img src="assets/img/portfolio/02-Ink.jpg" alt="Mixing the conductive silver ink">
-  <figcaption>Mixing the conductive silver ink.</figcaption>
+  <img src="assets/img/portfolio/02-Silver_INk.jpg" alt="Filling conductive silver ink into syringe">
+  <figcaption>Placing conductive silver ink into syringe.</figcaption>
 </figure>
  
 *An unexplained drop.* One day, the arm moved a few millimeters lower than usual and damaged the suction tip on the second syringe. We were able to replace the tip, but we never found the cause. The code hadn't changed, the pneumatic vise holding the circuit hadn't moved, the syringe hadn't shifted in the robot's gripper, and the UR5 recalibrates itself at the start of every run anyway. To protect the tip and the components, we changed the code so the arm offsets itself 2 to 3 mm upward after calibration.
@@ -120,8 +120,8 @@ Although most of the circuit printing software already existed, getting our comp
 Once we solved the problems with the ink, calibration, extrusion, code, and suction tip, we were able to design a circuit in the GUI using our new components, generate the CAD and CAM automatically in Fusion, and run a fully automated production and assembly line that milled and direct ink wrote custom circuits. Our added components also expand what the ADML can build, giving future classes and groups more options for producing their own custom circuits.
  
 <figure class="project-figure">
-  <img src="assets/img/portfolio/02-Final.jpg" alt="Finished printed circuits">
-  <figcaption>The finished, fully automated printed circuits.</figcaption>
+  <img src="assets/img/portfolio/02-Circuits.jpg" alt="Finished printed circuits">
+  <figcaption>The finished, fully automated printed circuits with their CAD models.</figcaption>
 </figure>
 
 
