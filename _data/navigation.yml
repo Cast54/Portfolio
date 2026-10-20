@@ -25,6 +25,8 @@ en: &DEFAULT_EN
       section: contact
     - title: "LinkedIn"
       url: https://www.linkedin.com/in/-william-castro/
+    - title: "Resume"
+      url: /assets/files/William-Castro-Resume.pdf
 en-US:
   <<: *DEFAULT_EN
 en-CA:
