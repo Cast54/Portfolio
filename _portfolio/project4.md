@@ -98,6 +98,5 @@ My team is designing a pump for liquid ammonia, with these requirements:
 
 We've just started the redesign. By the end of the course, we'll produce fully dimensioned drawings with GD&T for every component, plus assembly drawings, all detailed enough to send to a real manufacturer. (The redesigned pumps won't be built in the course.) I'll keep updating this page as the build and redesign progress.
 
-{:.list-inline}
 - September 2026 - Present
 - Manufacturing Processes for Design and Production - ME559
