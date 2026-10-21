@@ -100,4 +100,4 @@ We've just started the redesign. By the end of the course, we'll produce fully d
 
 {:.list-inline}
 - September 2026 - Present
-- Manufacturing Processes for Design and Production
+- Manufacturing Processes for Design and Production - ME559
