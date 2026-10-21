@@ -125,9 +125,6 @@ We're not sure yet why the valves sealed in the earlier test but not this one; o
 
 Once the fittings are sorted, the next tests are to see how the chamber holds vacuum while heated by the resistive heater on the bottom, and how fast and efficiently it can cycle gases. After that, it'll be ready for its intended purpose.
 
-
-
-{:.list-inline}
 - May 2026 - Present
 - Lubner Group, Boston University · Laboratory Assistant
 
