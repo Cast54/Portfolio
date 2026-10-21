@@ -1,13 +1,13 @@
 ---
 title: Rotary Vane Pump
 subtitle: Building a rotary vane pump to tighter-than-drawing tolerances, then redesigning it to pump liquid ammonia.
-image: assets/img/portfolio/04-full.jpg
+image: assets/img/portfolio/04-Casting.jpg
 alt: Rotary vane pump components
 
 caption:
   title: Rotary Vane Pump
   subtitle: A Work in Progress
-  thumbnail: assets/img/portfolio/04-thumbnail.jpg
+  thumbnail: assets/img/portfolio/04-Housing.jpg
 ---
 <style>
 .project-figure {
@@ -56,7 +56,7 @@ The build uses a range of processes, including sand casting, CNC and manual mill
 Next came the pump housing. The overall shape was precut, so we sized the center bore that forms the pump's internal chamber on the lathe (I used a CNC lathe), then drilled and tapped the inlet and outlet ports with 1/4" NPT threads.
 
 <figure class="project-figure">
-  <img src="assets/img/portfolio/04-Housing.jpg" alt="Pump housing">
+  <img src="assets/img/portfolio/04-Housing_Holes.jpg" alt="Pump housing">
   <figcaption>The pump housing with its bored chamber and 1/4" NPT ports.</figcaption>
 </figure>
 
@@ -69,14 +69,14 @@ The center hole had the tightest tolerance in the build: 0.7480" +0.0005/−0.00
 That raised a new problem: there was no way to measure a hole to that tolerance. The best tool available was calipers, which are only good to about ±0.001". Outer diameters, though, can be measured precisely with micrometers, so I machined my own stepped plug gauge out of aluminum. One step measured 0.74805" and the other 0.7481". If the smaller step slid into the bore but the larger one didn't, the hole had to be between 0.74805" and 0.7481", safely inside the 0.7480–0.7485" tolerance.
 
 <figure class="project-figure">
-  <img src="assets/img/portfolio/04-Rotor.jpg" alt="Rotor with bored center hole">
+  <img src="assets/img/portfolio/04-Unfinished_Rotor.jpg" alt="Rotor with bored center hole">
   <figcaption>The rotor with its bored center hole.</figcaption>
 </figure>
 
 The tolerance mattered because the 0.750" shaft is shrink fit into this bore, so a hole that was too large would leave the rotor loose, and one too small wouldn't go together. With my bored hole, the shaft fit.
 
 <figure class="project-figure">
-  <img src="assets/img/portfolio/04-Rotor_and_Shaft.jpg" alt="Rotor shrink fit onto the shaft">
+  <img src="assets/img/portfolio/04-Shrink_Fit.jpg" alt="Rotor shrink fit onto the shaft">
   <figcaption>The rotor shrink fit onto the shaft.</figcaption>
 </figure>
 
