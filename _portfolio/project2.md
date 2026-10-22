@@ -50,10 +50,9 @@ The ADML is a robotic manufacturing cell made up of two Haas CM-1 CNC mills, thr
  
 The last station has the third UR5, which takes the trays of milled parts, assembles them, and sets the finished product aside. This robot can also pick up syringes that dispense conductive silver ink onto the parts.
 
-_Take pic of ADML!_
 <figure class="project-figure">
-  <img src="assets/img/portfolio/02-ADML.jpg" alt="The ADML robotic cell">
-  <figcaption>The ADML: two CNC mills, three UR5 arms, and the conveyor connecting them.</figcaption>
+  <img src="assets/img/portfolio/02-ADML.jpg" alt="The ADML cell">
+  <figcaption>The ADML: two CNC mills, three UR5 arms, and a conveyor connecting them.</figcaption>
 </figure>
  
 **How Circuit Printing Worked**
