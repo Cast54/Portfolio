@@ -1,13 +1,13 @@
 ---
 title: Thermal Expansion of a Rotary Vane Pump
 subtitle: A COMSOL simulation of how a pump housing grows when pumping 140°F glue.
-image: assets/img/portfolio/05-full.jpg
+image: assets/img/portfolio/05-Displacement.jpg
 alt: COMSOL displacement plot of the rotary vane pump housing
 
 caption:
   title: Thermal Expansion
   subtitle: COMSOL Simulation
-  thumbnail: assets/img/portfolio/05-thumbnail.jpg
+  thumbnail: assets/img/portfolio/05-Stress.jpg
 ---
 <style>
 .project-figure {
@@ -61,7 +61,7 @@ Because the professor's housing has a simple profile, a 2D model was enough for 
 - **Mesh:** Extra fine.
 
 <figure class="project-figure">
-  <img src="assets/img/portfolio/05-Geometry.jpg" alt="2D geometry of the pump housing and base">
+  <img src="assets/img/portfolio/05-Geometry.png" alt="2D geometry of the pump housing and base">
   <figcaption>The simplified 2D geometry of the housing and base.</figcaption>
 </figure>
 
@@ -70,23 +70,18 @@ Because the professor's housing has a simple profile, a 2D model was enough for 
 With the outer surfaces insulated, the housing settles at a uniform 140°F. Because the base is fixed, the housing can only grow upward and outward, so the largest displacement, about 0.003", is at the top of the ring, farthest from the base. The highest stresses are at the corners of the base, away from the parts of the housing that matter for the pump's operation.
 
 <figure class="project-figure">
-  <img src="assets/img/portfolio/05-Displacement.jpg" alt="Displacement plot of the housing">
+  <img src="assets/img/portfolio/05-Displacement.png" alt="Displacement plot of the housing">
   <figcaption>Displacement from thermal expansion, greatest at the top of the housing, farthest from the fixed base (deformation exaggerated).</figcaption>
 </figure>
 
 **Checking the Simulation by Hand**
 
-To make sure the results were reasonable, we compared them with linear thermal expansion calculated by hand, using ΔT = 70°F and α = 6.11 × 10⁻⁶ 1/°F:
-
-- **Inner diameter:** 3.6" grows to 3.60154", an increase of about 0.0015".
-- **Outer diameter:** 4.7" grows to 4.70201", an increase of about 0.0020".
-
+To make sure the results were reasonable, we compared them with linear thermal expansion calculated by hand, D<sub>new</sub> = D × (1 + α × ΔT), using ΔT = 70°F and α = 6.11 × 10⁻⁶ 1/°F (the same 11 × 10⁻⁶ 1/K used in the simulation):
+ 
+- **Inner diameter:** 3.6 × (1 + 6.11 × 10⁻⁶ × 70) = 3.60154", an increase of about 0.0015".
+- **Outer diameter:** 4.7 × (1 + 6.11 × 10⁻⁶ × 70) = 4.70201", an increase of about 0.0020".
+ 
 Since the base is fixed, the bottom of the ring can't move, so the top moves by the full change in diameter rather than the change in radius. That's why we compared the simulation against the change in diameter, and the two gave similar values.
-
-<figure class="project-figure">
-  <img src="assets/img/portfolio/05-Validation.jpg" alt="Hand calculation compared with simulation results">
-  <figcaption>Hand calculations compared with the COMSOL results.</figcaption>
-</figure>
 
 **Challenges**
 
@@ -99,6 +94,8 @@ Since the base is fixed, the bottom of the ring can't move, so the top moves by 
 The housing's bore grows by only about 0.0015" at 140°F. In a rotary vane pump, the vanes slide outward from centrifugal force as the rotor spins, so they stay in contact with the housing wall and take up that small change on their own. Thermal expansion of the housing isn't significant enough to account for in this pump's design.
 
 The same approach applies to other parts that run hot, such as pumps for other fluids, turbine and turbocharger housings, and rotary (Wankel) engines. I'm now building this same pump design in ME559 (see the Rotary Vane Pump project).
+
+Want to see the full report, including step-by-step modeling instructions? [Read it here.](/assets/files/03-COMSOL_Report.pdf){:target="_blank"}
 
 - September 2025 - December 2025
 - Simulation of Physical Processes - ME526
