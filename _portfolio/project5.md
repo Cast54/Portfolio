@@ -1,13 +1,13 @@
 ---
 title: Thermal Expansion of a Rotary Vane Pump
 subtitle: A COMSOL simulation of how a pump housing grows when pumping 140°F glue.
-image: assets/img/portfolio/05-Displacement.jpg
+image: assets/img/portfolio/05-Stress.png
 alt: COMSOL displacement plot of the rotary vane pump housing
 
 caption:
   title: Thermal Expansion
   subtitle: COMSOL Simulation
-  thumbnail: assets/img/portfolio/05-Stress.jpg
+  thumbnail: assets/img/portfolio/05-Displacement.png
 ---
 <style>
 .project-figure {
