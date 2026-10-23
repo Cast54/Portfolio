@@ -106,6 +106,11 @@ The tube was originally cooled by two very small fans, about half a watt each, m
 
 I designed and 3D printed (in PLA) an air funnel to replace them. A 120 mm PC fan bolts to one end, and the funnel channels its air into the glass tube, around the copper tube. The outlet that holds the glass tube is offset below the fan's center, with the two axes parallel, so the glass tube sits closer to the table. If the tube slips off the funnel, which would usually only happen while someone is removing it, it has a shorter fall and is less likely to break. The PLA doesn't get too warm while the tube is heating.
 
+<figure class="project-figure">
+  <img src="assets/img/portfolio/06-Funnel_CAD.png" alt="CAD model of the air funnel">
+  <figcaption>CAD model of the air funnel. The outlet for the glass tube is offset below the fan's center.</figcaption>
+</figure>
+
 The PhD student who runs the lab and I drilled a hole in the side of the funnel so the tubing to the gas analyzer could pass through. Moving the fans out of the glass tube cleaned up its inside and made loading and removing samples much easier. The new fan runs at the same voltage as the old ones, so it connected to the existing power supply with no other changes.
 
 <figure class="project-figure">
@@ -128,7 +133,12 @@ Connected to our power supply, the new tube reached 90°C in under a minute, abo
 
 **Testing Larger Tubes**
 
-The lab may want to test more or larger samples in the future, so we also tested two tubes larger than the current 1/4" tube: a mid-size steel tube and a 5/8" OD copper tube, both 200 mm long like the original. In each tube, we switched the flow between CO₂ and nitrogen at 100, 200, and 500 SCCM and timed how long the analyzer took to go from 0 to 50,000 ppm CO₂ and back. In every case, the switch was nearly instant, even in the largest tube at the lowest flow rate (100 SCCM). So a bigger tube won't slow down gas switching; heating and cooling are what set the cycle time.
+The lab may want to test more or larger samples in the future, so we also tested two tubes larger than the current 1/4" tube: a mid-size steel tube and a 5/8" OD copper tube, both 200 mm long like the original. In each tube, we switched the flow between CO₂ and nitrogen at flow rates from 100 to 500 SCCM and watched how quickly the analyzer reading moved between 0 and 50,000 ppm CO₂. In every case, the CO₂ reading jumped up almost instantly, even in the largest tube at the lowest flow rate (100 SCCM). Switching back to nitrogen, most of the CO₂ cleared right away, followed by a short tail as the last of it flushed out. So a bigger tube won't meaningfully slow down gas switching; heating and cooling are what set the cycle time.
+
+<figure class="project-figure">
+  <img src="assets/img/portfolio/06-Gas_Switching.png" alt="Plots of CO2, water vapor, temperature, and flow rate during a gas switching test in the large tube">
+  <figcaption>One gas-switching run in the 5/8" copper tube, stepping down from 500 to 250 to 100 SCCM. Top: CO₂ (red) and water vapor (blue) at the LI-850. Middle: thermocouple readings (the tube stayed at room temperature). Bottom: the flow controllers.</figcaption>
+</figure>
 
 We ruled out the steel tube even though its gas switching was just as fast. Steel doesn't transfer heat nearly as well as copper, and this tube has a weld seam running along the inside. For now, the lab is still using the 1/4" copper tube, but the DGS will be able to take different tube sizes in the future.
 
