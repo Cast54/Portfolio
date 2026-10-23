@@ -33,8 +33,8 @@ en: &DEFAULT_EN
   #       icon: fab fa-markdown
 
   portfolio:
-    title: "Portfolio"
-    text: "Just some stuff I worked om"
+    title: "Projects"
+    text: "Things I've designed, built, and tested at BU"
     section: portfolio
     closebutton: "Close Project"
 
