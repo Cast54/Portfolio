@@ -22,6 +22,26 @@
 
   <title>{% if page.title %}{{ page.title | append: " | " | append: site.title }}{% else %}{{ site.title }}{% endif %}</title>
 
+  <!-- Dark mode: pick the theme before the page draws, so it never flashes white.
+       Uses the visitor's saved choice from the nav toggle, otherwise their device setting. -->
+  <script>
+    (function () {
+      var saved = null;
+      try { saved = localStorage.getItem("theme"); } catch (e) {}
+      var mq = window.matchMedia ? window.matchMedia("(prefers-color-scheme: dark)") : null;
+      var theme = saved === "light" || saved === "dark" ? saved : (mq && mq.matches ? "dark" : "light");
+      document.documentElement.setAttribute("data-theme", theme);
+      // Follow device changes until the visitor picks a theme themselves
+      if (mq && !saved && mq.addEventListener) {
+        mq.addEventListener("change", function (e) {
+          var picked = null;
+          try { picked = localStorage.getItem("theme"); } catch (err) {}
+          if (!picked) document.documentElement.setAttribute("data-theme", e.matches ? "dark" : "light");
+        });
+      }
+    })();
+  </script>
+
   <!-- Bootstrap core CSS -->
   <link href="assets/css/bootstrap.min.css" rel="stylesheet" />
 
@@ -41,6 +61,7 @@
   <!-- Custom styles for this theme -->
   <!--<link href="assets/css/agency.min.css" rel="stylesheet">-->
   <link href="assets/css/agency.css" rel="stylesheet" />
+  <link href="{{ '/assets/css/dark-mode.css' | relative_url }}" rel="stylesheet" />
 
   <!-- Page container change top padding when nav shrinks -->
   {% if page.layout == "page" %}

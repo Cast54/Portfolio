@@ -1,0 +1,98 @@
+/* Dark mode for the Agency theme.
+   Turned on by data-theme="dark" on <html>, which is set by the script in
+   _includes/head.html (device setting by default, or the visitor's choice
+   from the toggle in _includes/nav.html). */
+
+:root[data-theme="dark"] {
+  color-scheme: dark;
+  --dm-bg: #15171a;        /* page background */
+  --dm-bg-alt: #1b1e22;    /* alternate sections (was light gray) */
+  --dm-surface: #23272c;   /* cards and project pop-ups */
+  --dm-border: #33383e;
+  --dm-text: #e3e5e8;
+  --dm-muted: #a0a7af;
+}
+
+/* Page and sections */
+[data-theme="dark"] body {
+  background-color: var(--dm-bg);
+  color: var(--dm-text);
+}
+[data-theme="dark"] .bg-light {
+  background-color: var(--dm-bg-alt) !important;
+}
+[data-theme="dark"] h1,
+[data-theme="dark"] h2,
+[data-theme="dark"] h3,
+[data-theme="dark"] h4,
+[data-theme="dark"] h5,
+[data-theme="dark"] h6 {
+  color: var(--dm-text);
+}
+[data-theme="dark"] .text-muted {
+  color: var(--dm-muted) !important;
+}
+[data-theme="dark"] hr {
+  border-top-color: var(--dm-border);
+}
+
+/* Portfolio grid cards */
+[data-theme="dark"] #portfolio .portfolio-item .portfolio-caption {
+  background-color: var(--dm-surface);
+}
+
+/* Project pop-ups */
+[data-theme="dark"] .portfolio-modal .modal-content {
+  background-color: var(--dm-surface);
+  color: var(--dm-text);
+}
+[data-theme="dark"] .portfolio-modal .close-modal .lr,
+[data-theme="dark"] .portfolio-modal .close-modal .lr .rl {
+  background-color: var(--dm-text);
+}
+[data-theme="dark"] .portfolio-modal .modal-content .project-figure figcaption {
+  color: var(--dm-muted);
+}
+
+/* About / timeline */
+[data-theme="dark"] .timeline:before {
+  background-color: var(--dm-border);
+}
+[data-theme="dark"] .timeline > li .timeline-image {
+  border-color: var(--dm-border);
+}
+
+/* Footer (its white background is set inline in footer.html) */
+[data-theme="dark"] footer.footer {
+  background-color: var(--dm-bg) !important;
+  color: var(--dm-muted);
+}
+[data-theme="dark"] footer.footer ul.social-buttons li a {
+  background-color: #3a3f45;
+}
+[data-theme="dark"] footer.footer ul.social-buttons li a:hover,
+[data-theme="dark"] footer.footer ul.social-buttons li a:focus {
+  background-color: #fed136;
+}
+
+/* Toggle button in the nav bar */
+#theme-toggle {
+  background: none;
+  border: 0;
+  color: #fff;
+  font-size: 1.1rem;
+  line-height: 1;
+  padding: 0.5rem 0.6rem;
+  cursor: pointer;
+}
+#theme-toggle:hover,
+#theme-toggle:focus-visible {
+  color: #fed136;
+}
+#theme-toggle .fa-sun,
+[data-theme="dark"] #theme-toggle .fa-moon {
+  display: none;
+}
+[data-theme="dark"] #theme-toggle .fa-sun {
+  display: inline-block;
+}
