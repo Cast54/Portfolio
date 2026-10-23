@@ -6,3 +6,11 @@ header.masthead .intro-lead-in,
 header.masthead .intro-heading {
   text-shadow: 0 2px 4px rgba(0, 0, 0, 0.9), 0 0 18px rgba(0, 0, 0, 0.7);
 }
+
+/* Top menu bar: same shadow while it's see-through over the header photo
+   (desktop, before scrolling). Once it shrinks to a solid bar, no shadow. */
+#mainNav:not(.navbar-shrink) .navbar-brand,
+#mainNav:not(.navbar-shrink) .navbar-nav .nav-item .nav-link,
+#mainNav:not(.navbar-shrink) #theme-toggle {
+  text-shadow: 0 2px 4px rgba(0, 0, 0, 0.9), 0 0 18px rgba(0, 0, 0, 0.7);
+}
