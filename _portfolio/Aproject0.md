@@ -52,17 +52,12 @@ The DGS is made up of:
 
 - **Two Alicat MC mass flow controllers** (up to 500 SCCM, standard cubic centimeters per minute): one for CO₂ and one for nitrogen, joined by a tee.
 - **A gas humidifier** to add water vapor to the gas stream.
-- **A tube furnace:** a copper tube (1/4" OD) wrapped in nichrome heating wire, with a layer of Kapton tape between the wire and the tube and another layer over the wire. The copper tube sits inside a glass tube with a 46 mm bore.
-- **A LI-COR gas analyzer** that measures CO₂ and water vapor at the outlet.
-- **A programmable power supply**, which also runs the cooling fan.
+- **A tube furnace:** a 200 mm long copper tube (1/4" OD) wrapped in nichrome heating wire, with a layer of Kapton tape between the wire and the tube and another layer over the wire. The copper tube sits inside a glass tube with a 46 mm bore.
+- **A LI-COR LI-850 gas analyzer** that measures CO₂ and water vapor at the outlet.
+- **A BK Precision 9129B programmable power supply** that powers the heater and the cooling fan.
 - **A laptop running the DGS Control Center**, the lab's custom software that controls everything and logs the data.
 
 Samples sit in small aluminum holders inside the copper tube. Flexible tubing connects one end of the tube to the flow controllers and the other end to the gas analyzer.
-
-<figure class="project-figure">
-  <img src="assets/img/portfolio/06-DGS_Before.jpg" alt="The Dynamic Gas System">
-  <figcaption>The Dynamic Gas System.</figcaption>
-</figure>
 
 **Recipes**
 
@@ -86,7 +81,7 @@ The tube can't pull a vacuum, so desorption happens under flowing nitrogen inste
 
 The original sample holders were thin aluminum sheets bent into a rough U shape. The ends were open, so the gas flow could blow MOF powder out of the holder and into the tube, and the holders could flip over inside the tube.
 
-I made new holders from aluminum rod on the lathe and manual mill. The copper tube has a 0.183" inner diameter, so I turned the 1/4" rod down to about 0.180", leaving roughly 0.0015" of clearance per side. Since the rod was 4–5" long and only 1/4" thick, I center-drilled the end and supported it with a live center, to keep the slender rod from deflecting away from the cutting tool.
+I made two new holders from aluminum rod on the lathe and manual mill. The copper tube has a 0.183" inner diameter, so I turned the 1/4" rod down to about 0.180", leaving roughly 0.0015" of clearance per side. Since the rod was 4–5" long and only 1/4" thick, I center-drilled the end and supported it with a live center, to keep the slender rod from deflecting away from the cutting tool.
 
 <figure class="project-figure">
   <img src="assets/img/portfolio/06-Holder_Lathe.jpg" alt="Aluminum rod being turned on the lathe">
@@ -97,52 +92,49 @@ After turning, I cut off the ends and moved to the manual mill, where I milled a
 
 <figure class="project-figure">
   <img src="assets/img/portfolio/06-Sample_Holder.jpg" alt="Finished aluminum sample holder">
-  <figcaption>A finished sample holder.</figcaption>
+  <figcaption>One of the two finished sample holders.</figcaption>
 </figure>
 
 **Faster Cooling**
 
 The tube was originally cooled by two very small fans, about half a watt each, mounted inside the glass tube at its ends. After desorbing at 160°C, it took a full 19 minutes for the tube to cool back to room temperature (25°C). That time is added to every cycle, which adds up quickly over a long test.
 
-I designed and 3D printed (in PLA) an air funnel to replace them. A 120 mm PC fan bolts to one end, and the funnel channels its air into the glass tube, around the copper tube. The outlet that holds the glass tube is offset below the fan's center, with the two axes parallel, so the glass tube sits closer to the table. If the tube slips off the funnel, which would usually only happen while someone is removing it, it has a shorter fall and is less likely to break. The PLA doesn't get too warm while the tube is heating.
-
 <figure class="project-figure">
-  <img src="assets/img/portfolio/06-Funnel_CAD.jpg" alt="CAD model of the air funnel">
-  <figcaption>CAD model of the air funnel. The outlet for the glass tube is offset below the fan's center.</figcaption>
+  <img src="assets/img/portfolio/06-DGS_Before.jpg" alt="Tube furnace inside the glass tube with the original small fans">
+  <figcaption>The original setup: the tube furnace inside the glass tube, with the two small fans at its ends.</figcaption>
 </figure>
+
+I designed and 3D printed (in PLA) an air funnel to replace them. A 120 mm PC fan bolts to one end, and the funnel channels its air into the glass tube, around the copper tube. The outlet that holds the glass tube is offset below the fan's center, with the two axes parallel, so the glass tube sits closer to the table. If the tube slips off the funnel, which would usually only happen while someone is removing it, it has a shorter fall and is less likely to break. The PLA doesn't get too warm while the tube is heating.
 
 The PhD student who runs the lab and I drilled a hole in the side of the funnel so the tubing to the gas analyzer could pass through. Moving the fans out of the glass tube cleaned up its inside and made loading and removing samples much easier. The new fan runs at the same voltage as the old ones, so it connected to the existing power supply with no other changes.
 
 <figure class="project-figure">
   <img src="assets/img/portfolio/06-Air_Funnel.jpg" alt="3D-printed air funnel with a 120 mm fan">
-  <figcaption>The printed air funnel with the 120 mm fan attached.</figcaption>
+  <figcaption>The printed air funnel, with the 120 mm fan bolted to the back and the glass tube seated in the outlet.</figcaption>
 </figure>
 
-With the new funnel and fan, the tube now cools from 160°C to 35°C in about 4 minutes. That isn't a direct comparison with the old 19 minutes, which was the time to reach 25°C, and the last few degrees of cooling are always the slowest. To compare them, I estimated the old time to 35°C with Newton's law of cooling, T(t) − 25°C = 135°C · e^(−t/τ). If 19 minutes brought the tube within 1–2°C of room temperature, the time constant τ is about 3.9–4.5 minutes, so reaching 35°C would have taken about 10–12 minutes. By that estimate, the new setup cools roughly 2.5–3 times faster. I'm pulling the logged temperature data from older runs to replace this estimate with a measured number.
-
-<figure class="project-figure">
-  <img src="assets/img/portfolio/06-DGS_After.jpg" alt="The Dynamic Gas System with the new air funnel">
-  <figcaption>The DGS with the new air funnel installed.</figcaption>
-</figure>
+With the new funnel and fan, the tube now cools from 160°C to 35°C in about 4 minutes. That isn't a direct comparison with the old 19 minutes, which was the time to reach 25°C, and the last few degrees of cooling are always the slowest. To compare them, I estimated the old time to 35°C with Newton's law of cooling, T(t) − 25°C = 135°C · e^(−t/τ). If 19 minutes brought the tube within 1–2°C of room temperature, the time constant τ is about 3.9–4.5 minutes, so reaching 35°C would have taken about 10–12 minutes. By that estimate, the new setup cools roughly 2.5–3 times faster.
 
 **Testing a Faster-Heating Tube**
 
-To cut cycle time further, I also assembled a second tube furnace, the same size as the original but wound with thicker nichrome wire so it would heat faster. It's built the same way: a layer of Kapton tape on the copper tube, then the nichrome wire, then another layer of Kapton tape over the wire. I added a thermocouple at the middle of the tube, under the tape and between the windings rather than touching the wire, so it reads the tube's temperature instead of the heater's.
+To cut cycle time further, I also assembled a second tube furnace, the same size as the original but wound with thicker nichrome wire (22 AWG instead of the original 38 AWG) so it would heat faster. It's built the same way: a layer of Kapton tape on the copper tube, then the nichrome wire, then another layer of Kapton tape over the wire. I added a thermocouple at the middle of the tube, under the tape and between the windings rather than touching the wire, so it reads the tube's temperature instead of the heater's.
 
 <figure class="project-figure">
   <img src="assets/img/portfolio/06-Assembled_Tube.jpg" alt="Copper tube wrapped with thicker nichrome wire and Kapton tape">
-  <figcaption>The new tube furnace with thicker nichrome wire.</figcaption>
+  <figcaption>The new tube furnace with 22 AWG nichrome wire under the Kapton tape.</figcaption>
 </figure>
 
-Connected to our power supply, the new tube reached 90°C in under a minute, faster than the original tube with thinner wire. But heating speed turned out not to be the bottleneck. The MOFs need time at temperature to release all of their adsorbed water vapor (CO₂ comes off more quickly, but both have to be fully desorbed), so a faster ramp doesn't shorten the desorb step by much. Cooling is different: every minute spent cooling adds directly to every cycle. The thicker wire leaves a larger gap between the two layers of Kapton tape, and the trapped air acts as an insulating layer, so the new tube cooled more slowly. Since cooling rate matters more than heating rate for this system, we decided to stay with the original, thinner wire.
+Connected to our power supply, the new tube reached 90°C in under a minute, about twice as fast as the original tube, which takes about 2 minutes. But heating speed turned out not to be the bottleneck. The MOFs need time at temperature to release all of their adsorbed water vapor (CO₂ comes off more quickly, but both have to be fully desorbed), so a faster ramp doesn't shorten the desorb step by much. Cooling is different: every minute spent cooling adds directly to every cycle. The thicker wire leaves a larger gap between the two layers of Kapton tape, and the trapped air acts as an insulating layer, so the new tube was slower to cool (we didn't time the difference). Since cooling rate matters more than heating rate for this system, we decided to stay with the original, thinner wire.
 
 **Testing Larger Tubes**
 
-The lab may want to test more or larger samples in the future, so we also tested two tubes larger than the current 1/4" tube. We ran cycles of pure CO₂ and pure nitrogen through each tube at 100, 200, and 500 SCCM to compare their gas cycle times. Larger tubes hold more gas, so at the same flow rate they take longer to switch over completely from one gas to the other. For now, the lab is still using the 1/4" tube, but the DGS will be able to take different tube sizes in the future.
+The lab may want to test more or larger samples in the future, so we also tested two tubes larger than the current 1/4" tube: a mid-size steel tube and a 5/8" OD copper tube, both 200 mm long like the original. In each tube, we switched the flow between CO₂ and nitrogen at 100, 200, and 500 SCCM and timed how long the analyzer took to go from 0 to 50,000 ppm CO₂ and back. In every case, the switch was nearly instant, even in the largest tube at the lowest flow rate (100 SCCM). So a bigger tube won't slow down gas switching; heating and cooling are what set the cycle time.
+
+We ruled out the steel tube even though its gas switching was just as fast. Steel doesn't transfer heat nearly as well as copper, and this tube has a weld seam running along the inside. For now, the lab is still using the 1/4" copper tube, but the DGS will be able to take different tube sizes in the future.
 
 <figure class="project-figure">
-  <img src="assets/img/portfolio/06-different_tubes_sizes.jpg" alt="Three tubes of different sizes side by side">
-  <figcaption>The three tube sizes tested. The smallest (the current 1/4" tube) and largest are copper; the mid-size tube is steel.</figcaption>
+  <img src="assets/img/portfolio/06-different_tubes_sizes.jpg" alt="The three tubes tested, connected to the gas lines">
+  <figcaption>The tubes tested: the current 1/4" copper tube inside the glass tube (top), the 5/8" copper tube (middle), and the steel tube (bottom).</figcaption>
 </figure>
 
 **Next Steps**

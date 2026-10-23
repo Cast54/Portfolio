@@ -105,7 +105,7 @@ The IPA never fully evaporated into the chamber at that fitting; we think the le
 
 **Isolating the Valve**
 
-Next we removed the gauge entirely to cut down on possible leak points and turned to the NPT valves as the next suspect. IPA on the valves hadn't shown a spike in the earlier round, but we tried again, confident the chamber itself was sound. With the chamber held at 0.7 mbar by the pump, pouring IPA into a valve handle held upside down, then flipping it upright, spiked the pressure to over 10 mbar. Once again, the NPT fittings and the chamber's own gasket showed nothing.
+Next we removed the gauge entirely to cut down on possible leak points and turned to the NPT valves as the next suspect. IPA on the valves hadn't shown a spike in the earlier round, but we tried again, confident the chamber itself was sound. With the chamber held at 0.5 mbar by the pump, pouring IPA into a valve handle held upside down, then flipping it upright, spiked the pressure to over 10 mbar. Once again, the NPT fittings and the chamber's own gasket showed nothing.
 
 <figure class="project-figure">
   <div class="video-wrapper">
