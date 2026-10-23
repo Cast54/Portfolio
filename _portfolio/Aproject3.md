@@ -1,11 +1,11 @@
 ---
-title: Dynamic Gas System Chamber
-subtitle: A vacuum chamber built to run direct air capture material through 5,000+ heating and cooling cycles, and the leak hunt that came with it.
+title: DAC Vacuum Chamber
+subtitle: A vacuum chamber built to run direct air capture (DAC) material through 5,000+ heating and cooling cycles, and the leak hunt that came with it.
 image: assets/img/portfolio/03-Lid_and_Chamber.jpg
 alt: Vacuum lid and chamber
 
 caption:
-  title: Dynamic Gas System
+  title: DAC Vacuum Chamber
   subtitle: A Custom Testing Chamber
   thumbnail: assets/img/portfolio/03-DGS_Thumbnail.jpg
 ---
@@ -42,13 +42,13 @@ caption:
 
 **Overview**
 
-The Dynamic Gas System (DGS) is a small vacuum chamber used to test metal-organic frameworks (MOFs), porous materials that capture CO₂. It's built for a 5,000-plus cycle degradation test, where the MOF adsorbs CO₂ and water vapor at ambient temperature (under 40°C), then desorbs under heat (60°C+) and vacuum (~1 mbar). Running that cycle thousands of times is how the lab finds out how the material's performance holds up over its working life.
+The DAC Vacuum Chamber is a small vacuum chamber for testing metal-organic frameworks (MOFs), porous materials that capture CO₂ for direct air capture (DAC). It's built for a 5,000-plus cycle degradation test, where the MOF adsorbs CO₂ and water vapor at ambient temperature (under 40°C), then desorbs under heat (60°C+) and vacuum (~1 mbar). Running that cycle thousands of times is how the lab finds out how the material's performance holds up over its working life.
 
-There are two systems used to test these materials: the DGS Tube and the DGS Chamber. The Tube has two limitations the Chamber was built to address. First, the Tube can't pull a vacuum, so it instead flows pure nitrogen to simulate a CO₂-free environment. Second, MOFs are typically grown on a substrate like glass fiber or aluminum foam. Glass fiber is thin enough to fit in the 1/4" copper Tube, but a piece of aluminum foam, roughly 2" x 2" x 1", is not.
+The lab tests these materials on the Dynamic Gas System (DGS), a benchtop rig made up of mass flow controllers, a humidifier, a CO₂ analyzer, and control software. Normally, samples sit in the DGS's tube furnace, a heated 1/4" copper tube. The tube furnace has two limitations the chamber was built to address. First, it can't pull a vacuum, so it instead flows pure nitrogen to simulate a CO₂-free environment. Second, MOFs are typically grown on a substrate like glass fiber or aluminum foam. Glass fiber is thin enough to fit in the 1/4" copper tube, but a piece of aluminum foam, roughly 2" x 2" x 1", is not. When the chamber is used in place of the tube furnace, it becomes part of the DGS.
 
 **Design**
 
-I built the DGS Chamber to address both limitations, with the long-duration degradation tests in mind: everything about it is meant to reduce cycle time.
+I built the vacuum chamber to address both limitations, with the long-duration degradation tests in mind: everything about it is meant to reduce cycle time.
 
 - **Port placement:** The chamber's two 1/8" NPT ports sit at opposite corners of the square design, so gas sweeps through the full volume as it cycles instead of leaving stagnant pockets that don't get purged.
 - **Thin bottom:** The bottom of the chamber is only 1/16" thick, to maximize heating speed from a resistive heater attached underneath. We're also considering a Peltier element to heat and cool the MOFs, to cut cycle time further.
@@ -59,12 +59,12 @@ I built the DGS Chamber to address both limitations, with the long-duration degr
 I modeled the chamber in Fusion 360 and used Fusion CAM to set it up for the CNC mill. I machined it on a Haas VF2 with a flat steel bed, securing a 4" x 1" x 16" aluminum bar with step clamps. The chamber needed tabs left uncut to hold it in place in the stock, since it wouldn't otherwise have stayed put during machining.
 
 <figure class="project-figure">
-  <img src="assets/img/portfolio/03-CNC_Coolent2.jpg" alt="DGS Chamber after Milling in CNC">
+  <img src="assets/img/portfolio/03-CNC_Coolent2.jpg" alt="Vacuum chamber after milling in the CNC">
   <figcaption>The vacuum chamber in a Haas VF2 after being milled.</figcaption>
 </figure>
 
 <figure class="project-figure">
-  <img src="assets/img/portfolio/03-Milled.jpg" alt="DGS Chamber after Milling out of CNC">
+  <img src="assets/img/portfolio/03-Milled.jpg" alt="Vacuum chamber after milling, still attached to the stock">
   <figcaption>The vacuum chamber after being removed from mill, still secured to the rest of the stock.</figcaption>
 </figure>
 
@@ -72,10 +72,10 @@ After milling, I used a band saw to free the chamber from the stock, then set it
 
 **Testing and Troubleshooting the Seal**
 
-With the chamber built, the PhD student who runs the carbon capture lab and I used the Alicat mass flow controllers from the DGS Tube to test for leaks under atmospheric pressure. Pumping nitrogen through the chamber, we measured a leak rate of roughly 1% at 500 SCCM, the top of the flow controllers' range. We moved on to vacuum testing, connecting the chamber to a vacuum pump on one end through a valve, with a gauge on the other.
+With the chamber built, the PhD student who runs the carbon capture lab and I used the Alicat mass flow controllers from the DGS to test for leaks under atmospheric pressure. Pumping nitrogen through the chamber, we measured a leak rate of roughly 1% at 500 SCCM, the top of the flow controllers' range. We moved on to vacuum testing, connecting the chamber to a vacuum pump on one end through a valve, with a gauge on the other.
 
 <figure class="project-figure">
-  <img src="assets/img/portfolio/03-Leak_Testing3.jpg" alt="DGS Chamber leak testing">
+  <img src="assets/img/portfolio/03-Leak_Testing3.jpg" alt="Vacuum chamber leak testing">
   <figcaption>Two Alicat mass flow controllers connected to the vacuum chamber to measure leakage under atmospheric pressure.</figcaption>
 </figure>
 
