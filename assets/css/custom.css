@@ -1,0 +1,8 @@
+/* Site-wide tweaks on top of the Agency theme (loaded after agency.css). */
+
+/* Header: dark shadow behind the white text so it stays readable
+   over both the bright and dark parts of the header photo. */
+header.masthead .intro-lead-in,
+header.masthead .intro-heading {
+  text-shadow: 0 2px 4px rgba(0, 0, 0, 0.9), 0 0 18px rgba(0, 0, 0, 0.7);
+}
