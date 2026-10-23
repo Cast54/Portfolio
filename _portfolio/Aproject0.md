@@ -81,7 +81,7 @@ The tube can't pull a vacuum, so desorption happens under flowing nitrogen inste
 
 The original sample holders were thin aluminum sheets bent into a rough U shape. The ends were open, so the gas flow could blow MOF powder out of the holder and into the tube, and the holders could flip over inside the tube.
 
-I made two new holders from aluminum rod on the lathe and manual mill. The copper tube has a 0.183" inner diameter, so I turned the 1/4" rod down to about 0.180", leaving roughly 0.0015" of clearance per side. Since the rod was 4–5" long and only 1/4" thick, I center-drilled the end and supported it with a live center, to keep the slender rod from deflecting away from the cutting tool.
+I made two new holders from aluminum rod on the lathe and manual mill. The copper tube has a 0.183" inner diameter, so I turned the 1/4" rod down to about 0.180", leaving roughly 0.0015" of clearance per side. Since the rod was 4–5" long and only 1/4" thick, I center-drilled the end and supported it with a live center, to keep the thin rod from deflecting away from the cutting tool.
 
 <figure class="project-figure">
   <img src="assets/img/portfolio/06-Holder_Lathe.jpg" alt="Aluminum rod being turned on the lathe">
