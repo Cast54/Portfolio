@@ -34,7 +34,7 @@ en: &DEFAULT_EN
 
   portfolio:
     title: "Projects"
-    text: "Things I've designed, built, and tested at BU"
+    text: "Things I've designed, built, and tested"
     section: portfolio
     closebutton: "Close Project"
 
