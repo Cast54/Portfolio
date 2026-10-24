@@ -1,6 +1,6 @@
 ---
 title: DAC Vacuum Chamber
-subtitle: A vacuum chamber built to run direct air capture (DAC) material through 5,000+ heating and cooling cycles, and the leak hunt that came with it.
+subtitle: A vacuum chamber built to run direct air capture (DAC) material through 5,000+ heating and cooling cycles.
 image: assets/img/portfolio/03-Lid_and_Chamber.jpg
 alt: Vacuum lid and chamber
 
