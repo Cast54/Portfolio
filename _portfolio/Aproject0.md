@@ -122,14 +122,14 @@ With the new funnel and fan, the tube now cools from 160°C to 35°C in about 4 
 
 **Testing a Faster-Heating Tube**
 
-To cut cycle time further, I also assembled a second tube furnace, the same size as the original but wound with thicker nichrome wire (22 AWG instead of the original 38 AWG) so it would heat faster. It's built the same way: a layer of Kapton tape on the copper tube, then the nichrome wire, then another layer of Kapton tape over the wire. I added a thermocouple at the middle of the tube, under the tape and between the windings rather than touching the wire, so it reads the tube's temperature instead of the heater's.
+To cut cycle time further, I also assembled a second tube furnace, the same size as the original but wound with thicker nichrome wire (22 AWG instead of the original 38 AWG) so it would heat faster. It's built the same way as before, with a layer of Kapton tape on the copper tube, then the nichrome wire, then another layer of Kapton tape over the wire. I added a thermocouple at the middle of the tube, under the tape and between the windings rather than touching the wire, so it reads the tube's temperature instead of the heater's.
 
 <figure class="project-figure">
   <img src="assets/img/portfolio/06-Assembled_Tube.jpg" alt="Copper tube wrapped with thicker nichrome wire and Kapton tape">
   <figcaption>The new tube furnace with 22 AWG nichrome wire under the Kapton tape.</figcaption>
 </figure>
 
-Connected to our power supply, the new tube reached 90°C in under a minute, about twice as fast as the original tube, which takes about 2 minutes. But heating speed turned out not to be the bottleneck. The MOFs need time at temperature to release all of their adsorbed water vapor (CO₂ comes off more quickly, but both have to be fully desorbed), so a faster ramp doesn't shorten the desorb step by much. Cooling is different: every minute spent cooling adds directly to every cycle. The thicker wire leaves a larger gap between the two layers of Kapton tape, and the trapped air acts as an insulating layer, so the new tube was slower to cool (we didn't time the difference). Since cooling rate matters more than heating rate for this system, we decided to stay with the original, thinner wire.
+Connected to our power supply, the new tube reached 90°C in under a minute, about twice as fast as the original tube, which takes about 2 minutes. But heating speed turned out not to be the bottleneck. The MOFs need time at temperature to release all of their adsorbed water vapor (CO₂ comes off more quickly, but both have to be fully desorbed), so a faster ramp doesn't shorten the desorb step by much. Cooling is different since every minute spent cooling adds directly to every cycle. The thicker wire leaves a larger gap between the two layers of Kapton tape, and the trapped air acts as an insulating layer, so the new tube would be slower to cool. Since cooling rate matters more than heating rate for this system, we decided to stay with the original, thinner wire.
 
 **Testing Larger Tubes**
 
