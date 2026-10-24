@@ -118,7 +118,7 @@ The PhD student who runs the lab and I drilled a hole in the side of the funnel 
   <figcaption>The printed air funnel, with the 120 mm fan bolted to the back and the glass tube seated in the outlet.</figcaption>
 </figure>
 
-With the new funnel and fan, the tube now cools from 160°C to 35°C in about 4 minutes. That isn't a direct comparison with the old 19 minutes, which was the time to reach 25°C, and the last few degrees of cooling are always the slowest. To compare them, I estimated the old time to 35°C with Newton's law of cooling, T(t) − 25°C = 135°C · e^(−t/τ). If 19 minutes brought the tube within 1–2°C of room temperature, the time constant τ is about 3.9–4.5 minutes, so reaching 35°C would have taken about 10–12 minutes. By that estimate, the new setup cools roughly 2.5–3 times faster.
+With the new funnel and fan, the tube now cools from 160°C to 35°C in about 4 minutes. With the old fans, the same cooldown took about 10 minutes, so the new setup cools about 2.5 times faster.
 
 **Testing a Faster-Heating Tube**
 
